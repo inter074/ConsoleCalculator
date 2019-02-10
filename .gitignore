@@ -1,0 +1,8 @@
+src/.vs/
+src/ConsoleCalculator/bin/
+src/ConsoleCalculator/obj/
+src/Domain/Domain.csproj.user
+src/Domain/bin/
+src/Domain/obj/
+src/Logic/bin/
+src/Logic/obj/
