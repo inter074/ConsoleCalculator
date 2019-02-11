@@ -2,8 +2,8 @@
 using Domain;
 using Domain.Abstractions;
 using Domain.Exceptions;
-using Domain.Validators;
 using Logic.Services;
+using Logic.Validators;
 
 namespace ConsoleCalculator
 {
@@ -29,7 +29,7 @@ namespace ConsoleCalculator
             {
                 Console.WriteLine(calculationService.Calculation(expression));
             }
-            catch (CalculateExeption calculateExeption)
+            catch (CalculateExсeption calculateExeption)
             {
                 Console.WriteLine(calculateExeption.Message);
             }

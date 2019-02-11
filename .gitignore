@@ -6,3 +6,5 @@ src/Domain/bin/
 src/Domain/obj/
 src/Logic/bin/
 src/Logic/obj/
+src/Logic.Tests/bin/
+src/Logic.Tests/obj/

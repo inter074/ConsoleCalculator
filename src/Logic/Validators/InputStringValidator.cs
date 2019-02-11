@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Domain.Validators
+namespace Logic.Validators
 {
     public static class InputStringValidator
     {

@@ -75,12 +75,12 @@ namespace Logic.Services
                             num = "";
                         }
                         else
-                            throw new CalculateExeption(_parseExeptionMessage(indexOfExpressionElement, digit));
+                            throw new CalculateExсeption(_parseExeptionMessage(indexOfExpressionElement, digit));
 
                     _brackets.Add(++indexOfExpressionElement, simbol);
                 }
                 else
-                    throw new CalculateExeption(_parseExeptionMessage(indexOfExpressionElement, simbol));
+                    throw new CalculateExсeption(_parseExeptionMessage(indexOfExpressionElement, simbol));
             }
         }
 
@@ -154,7 +154,7 @@ namespace Logic.Services
             }
             catch (Exception e)
             {
-                throw new CalculateExeption($"Ошибка вычисления.{Environment.NewLine}" +
+                throw new CalculateExсeption($"Ошибка вычисления.{Environment.NewLine}" +
                                             $"Message: {e.Message}{Environment.NewLine}{e.StackTrace}");
             }
             return result;
